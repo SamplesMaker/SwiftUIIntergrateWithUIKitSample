@@ -13,6 +13,7 @@
 		D3BED52023FD85900002B699 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3BED51F23FD85900002B699 /* Assets.xcassets */; };
 		D3BED52323FD85900002B699 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3BED52223FD85900002B699 /* Preview Assets.xcassets */; };
 		D3BED52623FD85900002B699 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3BED52423FD85900002B699 /* LaunchScreen.storyboard */; };
+		D3BED52E23FD85D00002B699 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BED52D23FD85D00002B699 /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		D3BED52223FD85900002B699 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D3BED52523FD85900002B699 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D3BED52723FD85900002B699 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3BED52D23FD85D00002B699 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				D3BED52423FD85900002B699 /* LaunchScreen.storyboard */,
 				D3BED52723FD85900002B699 /* Info.plist */,
 				D3BED52123FD85900002B699 /* Preview Content */,
+				D3BED52D23FD85D00002B699 /* WebView.swift */,
 			);
 			path = IntergrateWithUIKitSample;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3BED51A23FD85900002B699 /* AppDelegate.swift in Sources */,
+				D3BED52E23FD85D00002B699 /* WebView.swift in Sources */,
 				D3BED51C23FD85900002B699 /* SceneDelegate.swift in Sources */,
 				D3BED51E23FD85900002B699 /* ContentView.swift in Sources */,
 			);
